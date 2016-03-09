@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.family.tywinLanisterActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tywin_activitybackground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/heading"
+            android:text="Tywin Lannister"
+             />
+
+        <TextView
+            android:id="@+id/protectorOfTheRealm"
+            style="@style/underHeading"
+            android:text="Protector of the Realm" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                style="@style/mainText"
+                android:text=" Tywin Lannister was the head of House Lannister,Lord of Casterly Rock,Warden of the West, Lord Paramount of the Westerlands, Hand of the King on three occasions, and Protector of the Realm. He was the father of Cersei, Jaime and Tyrion Lannister.
+
+Intelligent, calculating, ruthless and intimidating, Tywin was the richest man in Westeros and effectively its ruler when he served as Hand of the King to his grandsons, Joffrey and Tommen. His driving force was to secure his legacy and that of the Lannister name, and he would do whatever he considered necessary to protect the family. Tywin was often at odds with his three children, whom he considered disappointments.  " />
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

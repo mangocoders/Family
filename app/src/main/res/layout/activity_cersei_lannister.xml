@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.family.cerseiLannisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cersei_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/heading"
+            android:text="Cersei Lannister"
+            />
+
+        <TextView
+            android:id="@+id/protectorOfTheRealm"
+            style="@style/underHeading"
+            android:text="Light of the West" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                style="@style/mainText"
+                android:text=" Cersei Lannister is the eldest child of Tywin and Joanna Lannister by mere moments, and the twin sister of Jaime Lannister.
+After Robert's Rebellion she married the new king, Robert Baratheon, and became Queen of the Seven Kingdoms.
+She is the mother of Joffrey, Myrcella, and Tommen of House Baratheon of King's Landing.
+
+When King Robert is killed in a hunting accident, Cersei and Joffrey seize the throne,
+ ignoring Robert's will which gave the regency to Eddard Stark.
+ Lord Stark is arrested and later executed on Joffrey's order, an act which starts the War of the Five Kings.
+Cersei is unable to control her cruel and petulant son's excesses, and the war initially goes badly for the Crown.
+As King's Landing is threatened by Stannis Baratheon, Cersei engages in a power struggle with her brother Tyrion, acting Hand of the King in their father's stead.
+ Following the Battle of the Blackwater, Tywin returns and assumes the governance of the realm as Hand of the King, marginalizes Cersei, and plans to find her a new husband.
+Cersei becomes increasingly distrustful of House Tyrell,
+the Lannisters' main allies in the war, and especially of Margaery Tyrell, her son's betrothed.  " />
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.family.jaimeLanisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jaime_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/heading"
+            android:text="Jaime Lannister"
+            />
+
+        <TextView
+            style="@style/underHeading"
+            android:text="The Lion of Lannister" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                style="@style/mainText"
+                android:text=" Jaime is a born warrior, and most of his skills lie in the area of martial expertise.
+ He has little interest in politics and court intrigue; by his own admission,
+ Jaime only feels truly alive when fighting or making love.
+ Jaime has the quintessential Lannister look, with bright green eyes and golden hair.
+ He is considered to be extremely handsome, his tall frame complemented with comely features and a smile that cut like a knife;
+ He dresses in white, like any member of the Kingsguard when on duty, but he also wears his family colors and distinctive
+armor of his own at other times: gold-plated, with a lion's-head helm.
+
+Jaime comes across as arrogant, amoral, and dishonorable, behavioural traits similar
+to his sister twin Cersei. Because Jaime has done reprehensible acts he has such a bad reputation,
+ everything he says is usually cast in the worst possible light.
+ An offhand joke is taken as a grave threat by others, just because it is spoken by the Kingslayer.
+And as for honor, Jaime took his Kingsguard vows, but when they conflict,
+he chooses a course of action and follows it to its conclusion, no matter the consequence.
+At an early age Jaime lost his mother, who died giving birth to Tyrion.
+Even though Tyrion is a malformed dwarf, Jaime seems to have treated him with kindness and respect unlike Cersei and Tywinely its ruler when he served as Hand of the King to his grandsons, Joffrey and Tommen. His driving force was to secure his legacy and that of the Lannister name, and he would do whatever he considered necessary to protect the family. Tywin was often at odds with his three children, whom he considered disappointments.  " />
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.family.tyrionLannisterActivity">
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="com.example.android.family.cerseiLannisterActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tyrion_lannister_backgroundcopy" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/heading"
+                android:text="Tyrion Lannister" />
+
+            <TextView
+                android:id="@+id/protectorOfTheRealm"
+                style="@style/underHeading"
+                android:text="The Imp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    style="@style/mainText"
+                    android:text="Tyrion Lannister is a member of House Lannister and is the third and youngest child of Lord Tywin
+Lannister and the late Joanna Lannister. His older siblings are Cersei Lannister, the queen of King Robert Baratheon, and Ser Jaime Lannister, a knight of Robert's Kingsguard.Tyrion is a dwarf; because of this he is sometimes mockingly called the Imp and the Halfman।
+Tyrion is a dwarf, with stubby legs, a jutting forehead, mismatched eyes of green and black,[4] and a mixture of pale blond and black hair. His unique stare has been said to make most people uncomfortable, which Tyrion tries to use to his advantage.[5] Later, he grows a beard, which also contains both blonde and black hair.[6] After the Battle of the Blackwater, Tyrion has a grisly facial scar that has removed most of his nose.[7]
+Tyrion is shrewd, educated, and calculating, but receives little respect for this from his father because of his deformity,and his mother's death during his birth.He is capable of cruelty to his enemies, but also has great sympathy for fellow outcasts and the mistreated.Even though he is no warrior, he has instances where he shows great bravery;
+he has stated that what he lacks in size and strength he makes up for in mental acuity. He displays high intelligence and great promise during his brief tenure as Hand of the King,revealing himself to be as politically savvy and astute as his father, yet receives close to no recognition for it.
+  " />
+            </ScrollView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

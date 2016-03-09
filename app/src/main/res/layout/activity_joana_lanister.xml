@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.family.joanaLanisterActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/joanalanisterfinal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/heading"
+            android:text="Joanna Lannister"
+             />
+
+        <TextView
+
+            android:id="@+id/LadyofCasterlyRock"
+            style="@style/underHeading"
+            android:text="Lady of Casterly Rock" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                style="@style/mainText"
+                android:text="Joanna was born into a branch of House Lannister.
+Her father Ser Jason was the younger brother of Lord Tytos Lannister.
+She had one older sibling, Damon, a son from her father's first marriage and five younger siblings, the eldest of which was Stafford.
+
+Joanna married her first cousin, Tywin, in 263 AC in a lavish ceremony in the Great Sept of Baelor.
+On their wedding day, Tywin smiled, a very rare occurrence.  However at the wedding feast, Aerys drunkenly japed about how it was a pity the first night tradition was banned, and he took certain unwonted liberties with Joanna in the bedding ritual when the men at the feast had to disrobe the bride.
+ Not long thereafter, Joanna was dismissed by Queen Rhaella from her service in King's Landing.
+ While Queen Rhaella turned a blind eye towards most of her husband's infidelities, she did not approve when it concerned one of her own ladies.
+She departed for Casterly Rock at once, and seldom visited King's Landing afterwards.
+Joanna's marriage to Tywin was reportedly a happy one.
+Joanna became Tywin's trusted counselor and companion.
+Her influence on her husband was such that people would say that Tywin ruled the Seven Kingdoms as Hand of the King, but was ruled at home by his lady wife.  " />
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

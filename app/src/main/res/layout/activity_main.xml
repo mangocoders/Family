@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.family.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lanistermainlogocopy" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="House Lannister"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hear Me Roar!"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:onClick="playSound"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/tywinLanister"
+                style="@style/ImageButton"
+                android:onClick="tywinLanister"
+                android:src="@drawable/taiwin" />
+
+            <ImageButton
+                android:id="@+id/joanaLanisterr"
+                style="@style/ImageButton"
+                android:onClick="joanaLanister"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/lionacopy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/jaimeLanister"
+                style="@style/ImageButton"
+                android:layout_marginLeft="10dp"
+                android:onClick="jaimeLanister"
+                android:src="@drawable/jaime" />
+
+            <ImageButton
+                android:id="@+id/cerseiLanister"
+                style="@style/ImageButton"
+                android:layout_marginLeft="10dp"
+                android:onClick="cerseiLanister"
+                android:src="@drawable/cersi" />
+
+            <ImageButton
+                android:id="@+id/tyrionLanister"
+                style="@style/ImageButton"
+                android:layout_marginLeft="10dp"
+                android:onClick="tyrionLanister"
+                android:src="@drawable/tyrion_lannister" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="A Lannister always pays his debts"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+    </RelativeLayout>
+</ScrollView>
